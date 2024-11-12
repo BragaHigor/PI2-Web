@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teste.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="titulo">
+        <label class="textoTitulo" for="name">Título da página:</label>
+        <input type="text" id="name">
+      </div>
+      
+          <div class="lado-a-lado">
+            <p class="label-lado-a-lado">RECONHECIMENTO DE VOZ</p>
+            <textarea class="textarea-lado-a-lado" id="textarea"></textarea>
+            <div>
+              <button id="btnGravar"><i class="fas fa-microphone"></i></button>
+              <button id="btnParar" disabled><i class="fas fa-microphone-slash"></i></button>
+              <button id="btnBaixar"><i class="fas fa-download"></i></button>
+              <button id="btnLimpar"><i class="fas fa-trash-alt"></i></button>
+            </div>
+      
+            <p class="label-lado-a-lado">ANOTAÇÕES</p>
+            <textarea class="textarea-lado-a-lado" id="textareaAnotacao"></textarea>
+            <div>
+              <button id="btnBaixarAnotacao"><i class="fas fa-download"></i></button>
+              <button id="btnLimparAnotacao"><i class="fas fa-trash-alt"></i></button>
+            </div>
+          </div>
+      
+            <script src="speech.js"></script>
+    
+    
+</body>
+</html>

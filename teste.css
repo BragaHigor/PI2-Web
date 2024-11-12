@@ -1,0 +1,19 @@
+
+.label-lado-a-lado {
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.lado-a-lado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lado-a-lado{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(4,157,81);
+    background: linear-gradient(90deg, rgba(4,157,81,1) 0%, rgba(10,185,171,1) 39%, rgba(0,207,232,1) 100%);
+}
